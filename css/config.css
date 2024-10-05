@@ -1,8 +1,18 @@
 /*---------------- Alterações diretas --------------------------*/
 
 
-
-
+*
+{
+    /* Não remover essas configurações, elas removem as bordas brancas do site */
+    margin: 0; 
+    padding: 0;
+    /*-------------------------------------------------------------------------*/
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+}
 
 /*------------------- Classes ----------------------------------*/
 
@@ -22,5 +32,29 @@
     background-color: rgb(1,190,98);
 }
 
+/*--------- Header Menu---------*/
+.menu
+{
+    width: 100%;
+}
+
+.menu a
+{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: 200%;
+}
+
+
 
 /*--------------------- IDs -----------------------------------*/
+
+#imagembloco1
+{
+    background-image: url("../imagens/imagemcachorro1.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vw;
+}
