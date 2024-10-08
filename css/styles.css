@@ -1,14 +1,20 @@
-/*---------------------- Configuração Importante ---------------------------*/
+/* ---------------------- Configuração Importante --------------------------- */
 
 *
 {
     padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
     margin: 0;
 }
+/* ----------------------- CSS direto ---------------------------------------- */
+footer
+{
+    width: 100%;
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+}
 
-
-
-/*------------------ Cores da Pagina ------------------------------*/
+/* ------------------ Cores da Pagina ------------------------------ */
 
 .backgroundcolor1
 {
@@ -22,5 +28,47 @@
 {
     background-color: white;
 }
+.backgroundcolor4
+{
+    background-color: rgb(234, 234, 234);
+}
 
-/* ----------------------------------------------------------------*/
+/* ---------------------------------------------------------------- */
+
+/* -------------------------- Classes --------------------------------------- */
+
+
+.footerblocotexto
+{
+    border: 1px solid black;
+    width: 30%;
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------- IDs ----------------------------------------- */
+
+/* ------------- Footer --------------- */
+
+#blocofooter
+{
+    width: 100%;
+    height: 15vw;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
