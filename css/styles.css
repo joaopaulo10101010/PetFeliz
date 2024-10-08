@@ -1,0 +1,26 @@
+/*---------------------- Configuração Importante ---------------------------*/
+
+*
+{
+    padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
+    margin: 0;
+}
+
+
+
+/*------------------ Cores da Pagina ------------------------------*/
+
+.backgroundcolor1
+{
+    background-color: rgb(255, 178, 107);
+}
+.backgroundcolor2
+{
+    background-color: rgb(191,255,169);
+}
+.backgroundcolor3
+{
+    background-color: white;
+}
+
+/* ----------------------------------------------------------------*/
