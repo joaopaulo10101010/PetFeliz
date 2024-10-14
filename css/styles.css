@@ -12,6 +12,8 @@ body
 
 header 
 {
+    width: 95vw;
+    position: fixed;
     color: white;
     display: flex;
     justify-content: center;
@@ -19,6 +21,7 @@ header
     height: 5vw;
     margin-left: 2%;
     margin-right: 2%;
+    z-index: 1000;
 }
 
 footer
@@ -30,12 +33,7 @@ footer
     
 }
 
-section 
-{
-    margin-bottom: 40px;
-    display: inline-flex;
 
-}
 
 /* ------------------ Cores da Pagina ------------------------------ */
 
@@ -131,6 +129,24 @@ section
 
 }
 
+/*--------------------------- Sections ----------------------------------------*/
+
+#section1
+{
+    background-image: url("../imagens/imagemcachorro1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 50vw;
+    background-position-y: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* ------------- Footer --------------- */
 
 #blocofooter
@@ -146,3 +162,5 @@ section
 
 
 /*------------------------------------*/
+
+
