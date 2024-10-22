@@ -227,7 +227,33 @@ footer
     align-items: center;
 }
 
-
+#section3
+{
+    height: 50vw;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#divsec3
+{
+    border: 1px solid rgb(191,255,169);
+    border-radius: 2vw;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#divsec3 p
+{
+    width: 85%;
+    
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
 /* ------------- Footer --------------- */
 
 #backfooterbloco
