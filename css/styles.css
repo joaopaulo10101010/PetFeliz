@@ -3,10 +3,12 @@
 {
     padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
     margin: 0;
+
 }
 /* ----------------------- CSS direto ---------------------------------------- */
 body 
 {
+    overflow-x: hidden;
     font-family: Arial, sans-serif; 
 }
 
@@ -18,7 +20,7 @@ header
     display: flex;
     justify-content: center;
     border-radius: 0% 0% 3vw 3vw;
-    height: 5vw;
+    height: 10vh;
     margin-left: 2%;
     margin-right: 2%;
     z-index: 1000;
@@ -65,8 +67,8 @@ footer
 .backimg2
 {
     background-color: black;
-    height: 18vw;
-    width: 18vw;
+    height: 18dvw;
+    width: 18dvw;
     border-radius: 50vw;
     
 }
@@ -105,7 +107,7 @@ footer
 }
 #barranavegacao a
 {
-    font-size: 1vw;
+    font-size: 2vh;
     width: 10%;
     height: 100%;
     display: flex;
@@ -152,22 +154,24 @@ footer
 /*--------------------------- Sections ----------------------------------------*/
 #sobre
 {
-    width: 35%;
-    height: 30%;
+    width: 70vh;
+    height: 13vh;
     border: 1px solid rgb(191,255,169);
     border-radius: 3vw;
     justify-content: center;
     align-items: center;
     display: flex;
-    margin-bottom: -7%;
+    margin-bottom: 2vw;
     margin-top: 4%;
+
+
 }
 
 #sobre p
 {
     width: 85%;
     height: 70%;
-    font-size: 1vw;
+    font-size: 1.8vh;
 }
 
 #sobreimg1
@@ -189,8 +193,9 @@ footer
 {
     background-image: url("../imagens/imagemcachorro1.jpg");
     background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 50vw;
+    height: 100vh;
     background-position-y: 20%;
     text-align: center;
     display: flex;
@@ -201,13 +206,13 @@ footer
 
 #section2
 {
-    width: 100%;
-    height: 40vw;
+    width: 99.9%;
+    height: 100vh;
     border: 1px solid rgb(255, 178, 107);
 }
 #section2div
 {
-    width: 95%;
+    width: 96%;
     height: 95%;
     border-radius: 100%;
     margin-left: 2%;
@@ -220,7 +225,8 @@ footer
 }
 #section2img
 {
-    height: 100%;
+
+    height: 40vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -229,7 +235,7 @@ footer
 
 #section3
 {
-    height: 50vw;
+    height: 100vh;
     width: 100%;
     background-color: cadetblue;
     display: flex;
@@ -288,13 +294,41 @@ footer
 
 #espaço
 {
-    width: 100%;
+    width: 99.8%;
     height: 0.7vw;
     border: 0.3vh solid rgb(255, 178, 107);
 }
 #section4
 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
     width: 100%;
-    height: 3vw;
+    height: 100vh;
     background-color: cadetblue;
+}
+#divsec4
+{
+    border: 1px solid rgb(191,255,169);
+    border-radius: 2vw;
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+#divsec4 h1
+{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#divsec4 p
+{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
 }
