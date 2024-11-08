@@ -3,22 +3,27 @@
 {
     padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
     margin: 0;
+
 }
 /* ----------------------- CSS direto ---------------------------------------- */
 body 
 {
+    overflow-x: hidden;
     font-family: Arial, sans-serif; 
 }
 
 header 
 {
+    width: 95vw;
+    position: fixed;
     color: white;
     display: flex;
     justify-content: center;
     border-radius: 0% 0% 3vw 3vw;
-    height: 5vw;
+    height: 10vh;
     margin-left: 2%;
     margin-right: 2%;
+    z-index: 1000;
 }
 
 footer
@@ -26,16 +31,12 @@ footer
     width: 100%;
     height: 35vw;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     
 }
 
-section 
-{
-    margin-bottom: 40px;
-    display: inline-flex;
 
-}
 
 /* ------------------ Cores da Pagina ------------------------------ */
 
@@ -61,16 +62,34 @@ section
 }
 
 
+
+
+.backimg2
+{
+    height: 18dvw;
+    width: 18dvw;
+    border-radius: 50vw;
+    
+}
+
 /* ---------------------------------------------------------------- */
 
 /* -------------------------- Classes --------------------------------------- */
 
+
+
+/*--------------------- Footer ------------------------------*/
 
 .footerblocotexto
 {
     border: 1px solid black;
     width: 30%;
     height: 50%;
+}
+.bandeirasdepagamento
+{
+    width: 10%;
+    height: 20%;
 }
 
 
@@ -87,7 +106,7 @@ section
 }
 #barranavegacao a
 {
-    font-size: 1vw;
+    font-size: 2vh;
     width: 10%;
     height: 100%;
     display: flex;
@@ -131,24 +150,249 @@ section
 
 }
 
+/*--------------------------- Sections ----------------------------------------*/
+#sobre
+{
+    width: 70vh;
+    height: 13vh;
+    border: 1px solid rgb(191,255,169);
+    border-radius: 3vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2vw;
+    margin-top: 4%;
+
+
+}
+
+#sobre p
+{
+    width: 85%;
+    height: 70%;
+    font-size: 1.8vh;
+}
+
+#sobreimg1
+{
+    background-image: url("../imagens/mãobola.jpg");
+    margin-right: 6%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: 80%;
+}
+#sobreimg2
+{
+    background-image: url("../imagens/Gemini_Generated_Image_c31w4qc31w4qc31w.jfif");
+    margin-top: 10%;
+    margin-bottom: 2%;
+    background-size: cover;
+    background-position: 40%;
+}
+#sobreimg3
+{
+    background-image: url("../imagens/dog-8801305_1280.jpg");
+    margin-bottom: 2%;
+    margin-left: 6%;
+    background-size: cover;
+    background-position: 40%;
+}
+#section1
+{
+    background-image: url("../imagens/imagemcachorro1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-position-y: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section2
+{
+    width: 99.9%;
+    height: 100vh;
+    border: 1px solid rgb(255, 178, 107);
+}
+#section2div
+{
+    width: 96%;
+    height: 95%;
+    border-radius: 100%;
+    margin-left: 2%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+#section2img
+{
+
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3
+{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#divsec3
+{
+    margin-top: 15%;
+    margin-right: 10%;
+    border: 1px solid rgb(191,255,169);
+    border-radius: 2vw;
+    width: 30%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#divsec3 p
+{
+    width: 85%;
+    
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
 /* ------------- Footer --------------- */
+
+#backfooterbloco
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100%;
+}
 
 #blocofooter
 {
     width: 100%;
     height: 15vw;
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
-
 #contact
 {
     border: 2px solid black;
 }
+#formasdepagamento
+{
 
+}
 
 /*------------------------------------*/
+
+
+#espaço
+{
+    width: 99.8%;
+    height: 0.7vw;
+    border: 0.3vh solid rgb(255, 178, 107);
+}
+#section4
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: cadetblue;
+}
+#divsec4
+{
+    border: 1px solid rgb(191,255,169);
+    border-radius: 2vw;
+    height: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+}
+#divsec4 h1
+{
+    padding-top: 3%;
+    text-align: center;
+    padding-bottom: 2%;
+}
+#divsec4 p
+{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+#section5
+{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5item1
+{
+    border-radius: 3vw;
+    height: 60%;
+    width: 20%;
+}
+#section5item2
+{
+    border-radius: 3vw;
+    height: 60%;
+    width: 35%;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5item3
+{
+    border-radius: 3vw;
+    height: 30%;
+    width: 20%;
+}
+#div5background1
+{
+    width: 98%;
+    height: 97%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#div5background2
+{
+    width: 98.5%;
+    height: 97%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#linhalaranja
+{
+    width: 85%;
+    height: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 1.5%;
+}
