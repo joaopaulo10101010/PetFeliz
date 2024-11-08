@@ -245,7 +245,7 @@ footer
 {
     height: 100vh;
     width: 100%;
-    background-color: cadetblue;
+    background-image: url(../imagens/woman-6687637_1280.jpg);
     display: flex;
     justify-content: right;
     align-items: center;
@@ -313,7 +313,7 @@ footer
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: cadetblue;
+    background-image:url(../imagens/evening-8429871_1280.jpg)
 }
 #divsec4
 {
