@@ -87,67 +87,65 @@
           <p> Com o Plano de Saúde Pet da Pet Feliz, você pode ter a tranquilidade de saber que seu amigo está      protegido e bem cuidado. Faça parte da nossa família e ofereça ao seu pet a vida saudável e feliz que ele merece.</p>
         </div>
         <section>
-          <div class="plans">
+          <div id="planos" class="plan">
             <h2> Planos de Saúde Pet </h2>
-            <p> Escolha o plano ideal para você e seu pet. </p>
-            <ul>
-              <li>COELHO</li>
-              <li>RAPOSA</li>
-              <li>FALCÂO</li>
-            </ul>
-          </div>
-        </section>
-        <section id="planos1">
-          <div> 
-            <h2> Plano COELHO </h2>
-            <p> O Plano <strong>COELHO</strong>  é perfeito para pequenos animais de estimação</p>
-            <ul>
-              <li>Consultas Veterinárias</li>
-              <li>Vacinas e Vermifugação</li>
-              <li>Tratamentos de Emergência</li>
-            </ul>
-          </div>
-          <div>
-            <h2> Plano RAPOSA </h2>
-            <p> O Plano <strong>RAPOSA</strong> é ideal para animais de                estimação com necessidades especiais</p>
-            <ul>
-              <li>Consultas Veterinárias</li>
-              <li>Vacinas e Vermifugação</li>
-              <li>Tratamentos de Emergência</li>
-              <li>Cirurgias</li>
-            </ul>  
-          </div>
-          <div>
-            <h2> Plano FALCÂO </h2>
-            <p> O Plano <strong>FALCÂO</strong> é ideal para animais de estimação       com necessidades especiais</p>
-            <ul>
-              <li>Consultas Veterinárias</li>
-              <li>Vacinas e Vermifugação</li>
-              <li>Tratamentos de Emergência</li>
-              <li>Cirurgias</li>
-              <li>Descontos exclusivos em medicamentos e                    produtos na nossa rede de parceiros</li>
-            </ul>  
-          </div>
+            <table id="planos">
+              <thead>
+                <tr>
+                  <th>Plano Coelho</th>
+                  <th>Plano Raposa</th>
+                  <th>Plano Falcão</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Consultas Veterinárias</td>
+                  <td>Consultas Veterinárias</td>
+                  <td>Consultas Veterinárias</td>
+                </tr>
+                <tr>
+                  <td>Vacinas e Vermifugação</td>
+                  <td>Vacinas e Vermifugação</td>
+                  <td>Vacinas e Vermifugação</td>
+                </tr>
+                <tr>
+                  <td>Tratamentos de Emergência</td>
+                  <td>Tratamentos de Emergência</td>
+                  <td>Tratamentos de Emergência</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Cirurgias</td>
+                  <td>Cirurgias</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td>Descontos exclusivos</td>
+                </tr>
+              </tbody>
+            </table>
         </section>
         
         
       
-        <section id="contact">
-            <h2>Contato</h2>
-            <form action="envio_formulario.php" method="post">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="name" required>
-      
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-      
-                <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" required></textarea>
-      
-                <button type="submit">Enviar</button>
-            </form>
-            <p>Telefone: (11) 00000-3000</p>
-            <p>E-mail: xx@xx.com</p>
+        <section id="contato">
+          <h2>Entre em Contato</h2>
+          <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="phone" name="phone">
+        
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+        
+            <button type="submit">Enviar</button>
+          </form>
         </section>
       <!-- Separação da parte de cima e de baixo do site -->
 
