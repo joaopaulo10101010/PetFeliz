@@ -361,17 +361,17 @@ footer
   }
   
  
-  .plano-raposa-exclusivo {
+  #plano-raposa-exclusivo {
     font-weight: bold;
   }
   
-  .plano-falcao-exclusivo {
+  #plano-falcao-exclusivo {
     color: rgb(255, 178, 107);
   }
 
 
 
-  .contato{
+  #contato{
    
     padding: 20px;
     background-color: rgb(240, 240, 240);
@@ -412,3 +412,4 @@ footer
     border-radius: 4px;
     cursor: pointer;
   }
+  
