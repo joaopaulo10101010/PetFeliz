@@ -275,11 +275,22 @@ footer
 /* ------------- Footer --------------- */
 
 #backfooterbloco
+#backfooterbloco
 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
+    height: 100%;
+}
+
+#blocofooter
+{
+    width: 100%;
+    height: 15vw;
+
+}
     border: 1px solid black;
     height: 100%;
 }
@@ -296,7 +307,10 @@ footer
 }
 #formasdepagamento
 {
+#formasdepagamento
+{
 
+}
 }
 
 /*------------------------------------*/
