@@ -466,7 +466,6 @@ footer
     height: 97%;
     border-radius: 3vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -476,4 +475,9 @@ footer
     height: 0.5%;
     margin-bottom: 4%;
     margin-top: 1.5%;
+}
+
+#div5background2 h1
+{
+    padding-top: 5%;
 }
