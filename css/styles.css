@@ -477,7 +477,141 @@ footer
     margin-top: 1.5%;
 }
 
+
 #div5background2 h1
 {
     padding-top: 5%;
+}
+#section6
+{
+    background-color: aliceblue;
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recomendação
+{
+    width: 90%;
+    height: 80%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+}
+#recoback
+{
+    height: 100%;
+    width: 55%;
+    border-radius: 0% 3vw 3vw 0%;
+    clip-path: polygon(21% 0, 100% 0, 100% 100%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section5line
+{
+    margin-right: -10%;
+    width: 25%;
+    height: 95%;
+    clip-path: polygon(99% 0, 100% 0, 56% 100%, 55% 100%);
+    margin-top: 1%;
+}
+.section5img1class
+{
+    border-radius: 50vw;
+    width: 30%;
+    height: 40%;
+}
+#section5img1
+{
+    width: 33%;
+    height: 90%;
+    margin-right: -20%;
+    margin-bottom: -5%;
+}
+#section5img2
+{
+    width: 50%;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#section5img3
+{
+    width: 38%;
+    height: 70%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: right;
+}
+#section5divisão1
+{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5divisão2
+{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.backimg51
+{
+
+    width: 98%;
+    height: 98%;
+    border-radius: 100%;
+    background-color: palevioletred;
+}
+#backtextreda1
+{
+    margin-right: -10%;
+    width: 33%;
+    height: 78%;
+    border-radius: 3vw;
+    margin-top: 4.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#backtextreda2
+{
+    height: 97%;
+    width: 97%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#backtextreda3
+{
+    display: flex;
+
+    width: 98.5%;
+    height: 98%;
+    border-radius: 3vw;
+    flex-direction: column;
+    align-items: center;
+}
+#backtextreda3 h1
+{
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+#linhalaranja2
+{
+    width: 85%;
+    height: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 1.5%;
 }
