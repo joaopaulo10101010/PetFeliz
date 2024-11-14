@@ -28,8 +28,10 @@ header
 
 footer
 {
+    padding-bottom: 1%;
+
     width: 100%;
-    height: 35vw;
+    height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -86,13 +88,34 @@ textarea
 
 .footerblocotexto
 {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    height: 50%;
+    color: gray;
+}
+#footerblocotexto1
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
     width: 30%;
     height: 50%;
+    color: gray;
+}
+#footerblocotexto3
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 50%;
+    color: gray;
 }
 .bandeirasdepagamento
 {
-    width: 10%;
+    width: 15%;
     height: 20%;
 }
 
@@ -280,12 +303,13 @@ textarea
 
 #backfooterbloco
 {
+    padding-top: 1%;
     flex-direction: row;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
+    height: 20%;
 }
 
 #blocofooter
@@ -306,9 +330,18 @@ textarea
 {
     border: 2px solid black;
 }
-#formasdepagamento
+.iconlogofooter
 {
-
+    width: 6%;
+    height: 10%;
+   
+}
+.regulaimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /*------------------------------------*/
