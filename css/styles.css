@@ -218,7 +218,7 @@ textarea
 }
 #sobreimg3
 {
-    background-image: url("../imagens/dog-8801305_1280.jpg");
+    background-image: url("../imagens/petfelizlojafisica.webp");
     margin-bottom: 2%;
     margin-left: 6%;
     background-size: cover;
@@ -709,6 +709,7 @@ textarea
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .nomeplanobloco
 {
@@ -716,6 +717,7 @@ textarea
     width: 82%;
     height: 36%;
     border-radius: 1vw 1vw 2vw 2vw;
+    
 }
 .textodoplano
 {
@@ -729,6 +731,7 @@ textarea
     justify-content: center;
     align-items: center;
     margin-top: 20%;
+    
 }
 .textodoplano1
 {
@@ -738,6 +741,7 @@ textarea
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .dentrocirculo
 {
@@ -745,6 +749,7 @@ textarea
     height: 99%;
     border-radius: 100%;
     background-color: #4CAF50;
+    
 }
 #sec5mar
 {
