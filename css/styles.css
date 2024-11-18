@@ -303,7 +303,7 @@ textarea
 
 #backfooterbloco
 {
-    padding-top: 1%;
+    padding-top: 10%;
     flex-direction: row;
     width: 100%;
     display: flex;
@@ -314,8 +314,12 @@ textarea
 
 #blocofooter
 {
+    padding-bottom: 6%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
-    height: 15vw;
+    height: auto;
 
 }
 
@@ -760,4 +764,73 @@ textarea
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#backtitlefooter
+{
+    margin-top: 2.5%;
+    border-radius: 3vw;
+    width: 40%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titlefooter
+{
+    width: 99%;
+    height: 96%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titlefooter h1
+{
+    font-size: 2vw;
+}
+#backblocoserviço
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 18vw;
+    border-radius: 3vw;
+    
+}
+#backserv
+{
+    margin-left: -86%;
+    margin-top: 1%;
+    width: 10%;
+    height: 10%;
+}
+.formacontatoserviço
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 80%;
+    border-radius: 3vw;
+}
+.espasamentocentro
+{
+    margin: 3%;
+}
+.espaçotexto
+{
+    height: 85%;
+    width: 85%;
+}
+.espaçotexto1
+{
+    height: 50%;
+    width: 100%;
+}
+.espaçotexto1 h2
+{
+    font-size: 120%;
+    padding-bottom: 3%;
+    padding-top: 3%;
 }
