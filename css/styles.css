@@ -701,11 +701,26 @@ textarea
 }
 .nomeplanobloco
 {
-
+    display: flex;
+    justify-content: center;
     width: 82%;
-    height: 36%;
+    height: auto;
+    min-height: 36%;
     border-radius: 1vw 1vw 2vw 2vw;
+    padding-bottom: 5%;
     
+}
+.nomeplanobloco ol
+{
+    
+    border: 1px solid black;
+    padding-top: 10%;
+    width: 80%;
+    padding-left: 10%;
+}
+.nomeplanobloco ol li
+{
+    font-size: 100%;
 }
 .textodoplano
 {
