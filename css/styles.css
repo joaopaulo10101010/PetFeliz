@@ -444,19 +444,23 @@ textarea
     border-radius: 4px;
     cursor: pointer;
   }
-  #section5
+#section5
 {
     width: 100%;
-    height: 45vw;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #section5item1
 {
+    max-width: 40vh;
+    min-width: 20vh;
+    min-height: 35vh;
+    max-height: 50vh;
     border-radius: 3vw;
-    height: 60%;
-    width: 20%;
+    height: 35vw;
+    width: 20vw;
     background-image: url(../imagens/Hospital.jpg);
     background-size: cover;
     background-position: 100%;
@@ -477,9 +481,13 @@ textarea
 }
 #section5item3
 {
+    background-position: center;
+    min-height: 25vh;
+    max-width: 45vh;
+    min-width: 25vh;
     border-radius: 3vw;
-    height: 30%;
-    width: 20%;
+    height: 20vw;
+    width: 25vw;
     background-image: url(../imagens/petfelizlojafisica.webp);
     background-size: cover;
 }
