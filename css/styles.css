@@ -509,6 +509,7 @@ textarea
 
 #div5background2 h1
 {
+    text-align: center;
     padding-top: 5%;
 }
 #section6
@@ -901,5 +902,11 @@ nav a {
     box-shadow: 0px 2px 5px rgba(180, 235, 150, 0.398);
     
   }
-
+.endereçocredenciado
+{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 90%;
+}
   
