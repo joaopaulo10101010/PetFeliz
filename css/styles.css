@@ -463,8 +463,11 @@ textarea
 }
 #section5item2
 {
+    padding-left: 0.4vh;
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
     border-radius: 3vw;
-    height: 60%;
+    height: auto;
     width: 35%;
     margin: 5%;
     display: flex;
@@ -482,8 +485,11 @@ textarea
 }
 #div5background1
 {
+    padding-left: 0.3vh;
+    padding-bottom: 0.7vh;
+    padding-top: 0.7vh;
     width: 98%;
-    height: 97%;
+    height: auto;
     border-radius: 3vw;
     display: flex;
     justify-content: right;
@@ -491,8 +497,11 @@ textarea
 }
 #div5background2
 {
+    padding-left: 0.3vh;
+    padding-top: 0.3vh;
+    padding-bottom: 1.5vh;
     width: 98.5%;
-    height: 97%;
+    height: auto;
     border-radius: 3vw;
     display: flex;
     align-items: center;
