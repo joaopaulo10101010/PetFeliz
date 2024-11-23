@@ -223,13 +223,13 @@
         <div class="barradecor backgroundcolor1"></div>
         <form id="formulario">
           <label for="name">Nome:</label>
-          <input type="text" id="name" name="name" required>
+          <input class="entrada" type="text" id="name" name="name" required>
         
           <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required>
+          <input class="entrada" type="email" id="email" name="email" required>
         
           <label for="phone">Telefone:</label>
-          <input type="tel" id="phone" name="phone">
+          <input class="entrada" type="tel" id="phone" name="phone">
         
           <label for="planoselect">Plano:</label>
           <select id="planoselect" name="planoselect">
@@ -239,8 +239,10 @@
           </select>
           <div id="barradebaixocima" class="barradecor backgroundcolor2"></div>
           <div id="barradebaixobaixo" class="barradecor backgroundcolor1"></div>
-        
-          <button type="submit">Enviar</button>
+          <div id="botaoback">
+            <input id="botao" type="submit" value="FAZER O PEDIDO">
+          </div>
+          
         </form>
         </div>
       </section>
