@@ -3,6 +3,7 @@
 {
     padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
     margin: 0;
+    scroll-behavior: smooth;
 
 }
 /* ----------------------- CSS direto ---------------------------------------- */
@@ -165,6 +166,7 @@ textarea
 
 #backlogo
 {
+    box-shadow: 0px 1px 0.8px 1px rgb(214, 230, 207);
     position: center;
     width: 12vw;
     height: 11vw;
