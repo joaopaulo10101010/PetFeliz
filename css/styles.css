@@ -446,6 +446,22 @@ textarea
     height: 0.2vh;
 }
 
+#planoselect
+{
+    width: 93%;
+    padding: 1%;
+    border-radius: 0.3vw;
+    border: 2px solid rgb(191,255,169);
+}
+#barradebaixobaixo
+{
+    margin-bottom: 8%;
+}
+#barradebaixocima
+{
+    margin-top: 7%;
+}
+
 #backformulario
 {
     border: 1px solid greenyellow;
