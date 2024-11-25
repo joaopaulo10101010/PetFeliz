@@ -67,7 +67,37 @@ textarea
     background-color: rgb(148,255,109);
 }
 
+/*-------------------------- Noturno ---------------------------------------*/
 
+.noturnobackgroundcolor1
+{
+    background-color: rgb(255, 178, 107);
+}
+
+.noturnobackgroundcolor2
+{
+    background-color: rgb(107, 217, 129);
+}
+
+.noturnobackgroundcolor3
+{
+    background-color: black;
+    color: white
+}
+
+.noturnobackgroundcolor4
+{
+    background-color: black;
+    color: black
+}
+.noturnobackgroundcolor5
+{
+    background-color: rgb(148,255,109);
+}
+
+
+
+/*-----------------------------------------------------------------*/
 
 
 .backimg2
@@ -1021,4 +1051,34 @@ nav a {
 {
     width: 100vw; 
     flex-shrink: 0; 
+}
+#textodeapresentacao
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30vh;
+    z-index: 1;
+    margin-bottom: 19vh;
+    padding: 0.7vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 2vw;
+    background-color: rgba(255, 178, 107,0.7);
+}
+#textodeapresentacaodentro
+{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: rgba(255,255,255,0.5);
+
 }
