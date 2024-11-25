@@ -9,7 +9,6 @@
 /* ----------------------- CSS direto ---------------------------------------- */
 body 
 {
-    overflow-x: hidden;
     font-family: Arial, sans-serif; 
 }
 
@@ -228,18 +227,15 @@ textarea
 }
 #section1
 {
-    background-image: url("../imagens/imagemcachorro1.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    width: auto;
     height: 100vh;
-    background-position-y: 20%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 #section2
 {
@@ -1007,4 +1003,19 @@ nav a {
     margin-right: 3%;
     border-radius: 30vw;
     background-color: aliceblue;
+}
+
+
+.carrossel {
+    display: flex; /* Torna os elementos filhos alinhados horizontalmente */
+    width: 200vw; /* Define a largura visível do carrossel (ajuste conforme necessário) */
+    height: 100%; /* Define a altura do carrossel */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+
+.carrossel img {
+    width: 100vw; /* Cada imagem ocupa 100% da largura do carrossel */
+    flex-shrink: 0; /* Impede que as imagens encolham */
+    transition: transform 0.5s ease-in-out; /* Suaviza a transição ao mover as imagens */
 }
