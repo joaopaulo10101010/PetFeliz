@@ -227,6 +227,7 @@ textarea
 }
 #section1
 {
+    overflow: hidden;
     width: auto;
     height: 100vh;
     text-align: center;
@@ -1005,17 +1006,19 @@ nav a {
     background-color: aliceblue;
 }
 
-
-.carrossel {
-    display: flex; /* Torna os elementos filhos alinhados horizontalmente */
-    width: 200vw; /* Define a largura visível do carrossel (ajuste conforme necessário) */
-    height: 100%; /* Define a altura do carrossel */
+.carrossel 
+{
+    margin-right: -100%;
+    display: flex; 
+    width: 200vw; 
+    height: 100%; 
     border: 2px solid #ddd;
     border-radius: 10px;
+    transition: transform 1s ease-in-out; 
 }
 
-.carrossel img {
-    width: 100vw; /* Cada imagem ocupa 100% da largura do carrossel */
-    flex-shrink: 0; /* Impede que as imagens encolham */
-    transition: transform 0.5s ease-in-out; /* Suaviza a transição ao mover as imagens */
+.carrossel img 
+{
+    width: 100vw; 
+    flex-shrink: 0; 
 }

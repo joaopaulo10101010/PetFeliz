@@ -10,4 +10,5 @@ function mostrarProximaImagem() {
     carrossel.style.transform = `translateX(${-indice * contador.width}px)`; // Move o carrossel
 }
 
-setInterval(mostrarProximaImagem, 3000); // Alterna a cada 3 segundos
+setInterval(mostrarProximaImagem, 6000); // Alterna a cada 3 segundos
+
