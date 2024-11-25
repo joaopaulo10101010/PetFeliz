@@ -3,17 +3,18 @@
 {
     padding: 0;        /* Necessario para evitar erros de configuração de margem e porporção da tela */
     margin: 0;
+    scroll-behavior: smooth;
 
 }
 /* ----------------------- CSS direto ---------------------------------------- */
 body 
 {
-    overflow-x: hidden;
     font-family: Arial, sans-serif; 
 }
 
 header 
 {
+    box-shadow: 1px 1px 1px rgb(red, green, blue);
     width: 95vw;
     position: fixed;
     color: white;
@@ -28,12 +29,17 @@ header
 
 footer
 {
+    padding-bottom: 1%;
     width: 100%;
-    height: 35vw;
+    height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
+    position: relative;
+}
+textarea
+{
+    resize: none;
 }
 
 
@@ -61,7 +67,37 @@ footer
     background-color: rgb(148,255,109);
 }
 
+/*-------------------------- Noturno ---------------------------------------*/
 
+.noturnobackgroundcolor1
+{
+    background-color: rgb(255, 178, 107);
+}
+
+.noturnobackgroundcolor2
+{
+    background-color: rgb(107, 217, 129);
+}
+
+.noturnobackgroundcolor3
+{
+    background-color: black;
+    color: white
+}
+
+.noturnobackgroundcolor4
+{
+    background-color: black;
+    color: black
+}
+.noturnobackgroundcolor5
+{
+    background-color: rgb(148,255,109);
+}
+
+
+
+/*-----------------------------------------------------------------*/
 
 
 .backimg2
@@ -82,14 +118,35 @@ footer
 
 .footerblocotexto
 {
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    height: 50%;
+    color: gray;
+}
+#footerblocotexto1
+{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
     width: 30%;
     height: 50%;
+    color: gray;
+}
+#footerblocotexto3
+{
+    flex-direction: column;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 50%;
+    color: gray;
 }
 .bandeirasdepagamento
 {
-    width: 10%;
-    height: 20%;
+    width: 8vh;
+    height: 10.2vh;
 }
 
 
@@ -108,7 +165,7 @@ footer
 {
     font-size: 2vh;
     width: 10%;
-    height: 100%;
+    height: 72%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -138,6 +195,7 @@ footer
 
 #backlogo
 {
+    box-shadow: 0px 1px 0.8px 1px rgb(214, 230, 207);
     position: center;
     width: 12vw;
     height: 11vw;
@@ -191,7 +249,7 @@ footer
 }
 #sobreimg3
 {
-    background-image: url("../imagens/dog-8801305_1280.jpg");
+    background-image: url("../imagens/petfelizlojafisica.webp");
     margin-bottom: 2%;
     margin-left: 6%;
     background-size: cover;
@@ -199,18 +257,16 @@ footer
 }
 #section1
 {
-    background-image: url("../imagens/imagemcachorro1.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    overflow: hidden;
+    width: auto;
     height: 100vh;
-    background-position-y: 20%;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
 
 #section2
 {
@@ -245,10 +301,13 @@ footer
 {
     height: 100vh;
     width: 100%;
-    background-color: cadetblue;
+    background-image: url(../imagens/york-4748868_1280.jpg);
     display: flex;
     justify-content: right;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
 }
 #divsec3
 {
@@ -274,13 +333,28 @@ footer
 
 #backfooterbloco
 {
+    position: absolute;
+    bottom: 0;
+    padding-top: 10vw;
+    flex-direction: row;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
-    height: 100%;
+    height: auto;
 }
+
+#blocofooter
+{
+    padding-bottom: 8dvw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
 
 #blocofooter
 {
@@ -292,9 +366,18 @@ footer
 {
     border: 2px solid black;
 }
-#formasdepagamento
+.iconlogofooter
 {
-
+    width: 6%;
+    height: 10%;
+   
+}
+.regulaimg
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /*------------------------------------*/
@@ -313,8 +396,11 @@ footer
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: cadetblue;
-}
+    background-image:url(../imagens/woman-6687637_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}   
 #divsec4
 {
     border: 1px solid rgb(191,255,169);
@@ -340,40 +426,176 @@ footer
     margin-right: 5%;
     padding-bottom: 5%;
 }
+
+
+
+
+
+
+#contato
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+#formulario
+{
+ 
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-top: 7%;
+    padding-right: 1%;
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+
+}
+
+#backformulario h1
+{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.barradecor
+{
+
+    width: 100%;
+    height: 0.2vh;
+}
+
+#planoselect
+{
+    width: 93%;
+    padding: 1%;
+    border-radius: 0.5vw;
+    border: 2px solid rgb(191,255,169);
+    margin-left: 4%;
+}
+#barradebaixobaixo
+{
+    margin-bottom: 8%;
+}
+#barradebaixocima
+{
+    margin-top: 7%;
+}
+
+#backformulario
+{
+    border: 1px solid greenyellow;
+    border-radius: 3vh;
+    padding: 2%;
+    width: 30%;
+    height: auto;
+}
+
+#formulario button
+{
+    width: 80%;
+    margin-left: 7%;
+}
+
+#formulario label
+{
+    margin-left: 4%;
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.entrada
+{
+    margin-left: 4%;
+    padding: 1%;
+    height: auto;
+    width: 90%;
+    border: 2px solid rgb(191,255,169);
+    border-radius: 0.5vw;
+    margin-bottom: 10px;
+}
+#botaoback
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+#botao
+{
+    max-width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 1.5vw;
+    width: auto;
+    border: 0.15vw solid rgb(255, 178, 107);
+    background-color: rgb(191,255,169);
+    height: auto;
+    font-size: 200%;
+    box-shadow: 0.05vw 0.05vw 0.05vw 0.09vw rgb(109, 107, 106);
+}
 #section5
 {
     width: 100%;
-    height: 45vw;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #section5item1
 {
+    max-width: 40vh;
+    min-width: 20vh;
+    min-height: 35vh;
+    max-height: 50vh;
     border-radius: 3vw;
-    height: 60%;
-    width: 20%;
+    height: 35vw;
+    width: 20vw;
 }
 #section5item2
 {
+    padding-left: 0.4vh;
+    padding-top: 0.6vh;
+    padding-bottom: 0.6vh;
     border-radius: 3vw;
-    height: 60%;
+    height: auto;
     width: 35%;
     margin: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 #section5item3
 {
+    background-position: center;
+    min-height: 25vh;
+    max-width: 45vh;
+    min-width: 25vh;
     border-radius: 3vw;
-    height: 30%;
-    width: 20%;
+    height: 20vw;
+    width: 25vw;
+    background-image: url(../imagens/petfelizlojafisica.webp);
+    background-size: cover;
 }
 #div5background1
 {
+    padding-left: 0.3vh;
+    padding-bottom: 0.7vh;
+    padding-top: 0.7vh;
     width: 98%;
-    height: 97%;
+    height: auto;
     border-radius: 3vw;
     display: flex;
     justify-content: right;
@@ -381,11 +603,13 @@ footer
 }
 #div5background2
 {
+    padding-left: 0.3vh;
+    padding-top: 0.3vh;
+    padding-bottom: 1.5vh;
     width: 98.5%;
-    height: 97%;
+    height: auto;
     border-radius: 3vw;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -395,4 +619,485 @@ footer
     height: 0.5%;
     margin-bottom: 4%;
     margin-top: 1.5%;
+}
+
+
+#div5background2 h1
+{
+    text-align: center;
+    padding-top: 5%;
+}
+#section6
+{
+    background-image: url(../imagens/para_fundo.jpg);
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recomendação
+{
+    width: 90%;
+    height: 80%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+}
+#recoback
+{
+    height: 100%;
+    width: 55%;
+    border-radius: 0% 3vw 3vw 0%;
+    clip-path: polygon(21% 0, 100% 0, 100% 100%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#section5line
+{
+    margin-right: -10%;
+    width: 25%;
+    height: 95%;
+    clip-path: polygon(99% 0, 100% 0, 56% 100%, 55% 100%);
+    margin-top: 1%;
+}
+.section5img1class
+{
+    border-radius: 50vw;
+    width: 30%;
+    height: 40%;
+}
+#section5img1
+{
+    width: 33%;
+    height: 90%;
+    margin-right: -20%;
+    margin-bottom: -5%;
+}
+#section5img2
+{
+    width: 50%;
+    height: 90%;
+    margin-left: 3%;
+    margin-top: -10%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+#section5img3
+{
+    width: 38%;
+    height: 70%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: right;
+}
+#section5divisão1
+{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section5divisão2
+{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.backimg51
+{
+
+    width: 98%;
+    height: 98%;
+    border-radius: 100%;
+}
+#backtextreda1
+{
+    margin-right: -10%;
+    width: 33%;
+    height: 78%;
+    border-radius: 3vw;
+    margin-top: 4.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#backtextreda2
+{
+    height: 97%;
+    width: 97%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+#backtextreda3
+{
+    display: flex;
+
+    width: 98.5%;
+    height: 98%;
+    border-radius: 3vw;
+    flex-direction: column;
+    align-items: center;
+}
+#backtextreda3 h1
+{
+    padding-top: 4%;
+    padding-bottom: 1%;
+}
+#linhalaranja2
+{
+    width: 85%;
+    height: 0.5%;
+    margin-bottom: 4%;
+    margin-top: 1.5%;
+}
+#section7
+{
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section7back1
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 90%;
+    height: 80%;
+    border-radius: 10vw;
+}
+#section7back2
+{
+    margin-top: 2%;
+    width: 99%;
+    height: 99%;
+    border-radius: 10vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../imagens/para_fundo.jpg);
+}
+.planosli
+{
+    width: 22%;
+    height: 78%;
+    border-radius: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.planosli1
+{
+    margin-left: 3%;
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+    border-radius: 6vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.imagemdocirculo
+{
+    width: 60%;
+    height: 40%;
+    border-radius: 6vw;
+    margin-top: -15%;
+    box-shadow: 1px 1px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nomeplanobloco
+{
+    display: flex;
+    justify-content: center;
+    width: 82%;
+    height: auto;
+    min-height: 36%;
+    border-radius: 1vw 1vw 2vw 2vw;
+    padding-bottom: 5%;
+    
+}
+.nomeplanobloco ol
+{
+    padding-top: 10%;
+    width: 80%;
+    padding-left: 10%;
+}
+.nomeplanobloco ol li
+{
+    font-size: 100%;
+}
+.textodoplano
+{
+    padding-left: 1%;
+    padding-right: 1%;
+    z-index: 30;
+    margin-left: -12%;
+    margin-bottom: -5%;
+    width: auto;
+    height: 9%;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    
+}
+.textodoplano1
+{
+    text-align: center;
+    border-radius: 1vw;
+    width: auto;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dentrocirculo
+{
+    width: 99%;
+    height: 99%;
+    border-radius: 100%;
+    background-color: #4CAF50;
+    
+}
+#sec5mar
+{
+    margin: 5%;
+}
+.centralizar
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#backtitlefooter
+{
+    margin-top: 2.5%;
+    border-radius: 3vw;
+    width: auto;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titlefooter
+{
+    width: 99%;
+    height: 96%;
+    border-radius: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#titlefooter h1
+{
+    text-align: center;
+    width: 40vw;
+    font-size: 200%;
+}
+#backblocoserviço
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: auto;
+    border-radius: 3vw;
+    
+}
+#backserv
+{
+    margin-left: -86%;
+    margin-top: 1%;
+    width: 10%;
+    height: 10%;
+}
+.formacontatoserviço
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: auto;
+    border-radius: 3vw;
+}
+.espasamentocentro
+{
+    margin: 3%;
+}
+.espaçotexto
+{
+    padding-top: 5%;
+    height: auto;
+    width: 85%;
+    padding-bottom: 8%;
+}
+.espaçotexto1
+{
+    height: 50%;
+    width: 100%;
+}
+.espaçotexto1 h2
+{
+    font-size: 120%;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+#coelho
+{
+    background-image:url(../imagens/Coelho.jpg);
+    background-size: cover;
+    background-position: 35%;
+}
+#raposa
+{
+    background-image: url(../imagens/Raposa.jpg);
+    background-position: 75%;
+    background-size: cover;
+}
+#falcao
+{
+    background-image: url(../imagens/Falcao.jpg);
+    background-size: cover;
+    background-position: 20%;
+}
+#aderiam1
+{
+    background-image: url(../imagens/para_comentario1.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+#aderiam2
+{
+    background-image: url(../imagens/comenatario2.jpg);
+    background-size: cover;
+    background-position: 30%;
+}
+#aderiam3
+{
+    background-image: url(../imagens/comentario3.jpg);
+    background-size: cover;
+    background-position: 75%;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+    background-color: rgb(255, 178, 107);
+    transform: scale(1.1);
+    box-shadow: 0px 2px 5px rgba(238, 120, 10, 0.398);
+    border-radius: 5vw;
+    
+  }
+  
+  nav a:active {
+    color: rgb(255, 178, 107);
+    background-color: #0fb435;
+    transform: scale(0.9);
+    border-radius: 10vw;
+    box-shadow: 0px 2px 5px rgba(180, 235, 150, 0.398);
+    
+  }
+.endereçocredenciado
+{
+    padding-top: 0.5%;
+    padding-bottom: 2%;
+    text-align: center;
+    width: 90%;
+}
+#imagemform
+{
+    background-position-y: 50%;
+    background-size: cover;
+    background-image: url("../imagens/cat-4364464_640.jpg");
+    width: 31vw;
+    height: 30vw;
+    margin-right: 3%;
+    border-radius: 30vw;
+    background-color: aliceblue;
+}
+
+.carrossel 
+{
+    margin-right: -100%;
+    display: flex; 
+    width: 200vw; 
+    height: 100%; 
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: transform 1s ease-in-out; 
+}
+
+.carrossel img 
+{
+    width: 100vw; 
+    flex-shrink: 0; 
+}
+#textodeapresentacao
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30vh;
+    z-index: 1;
+    margin-bottom: 19vh;
+    padding: 0.7vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    border-radius: 2vw;
+    background-color: rgba(255, 178, 107,0.7);
+}
+#textodeapresentacaodentro
+{
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 2vw;
+    padding: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    background-color: rgba(255,255,255,0.5);
+
+}
+.textodoplano1 h1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    width: auto;
+    height: 100%;
+}
+#mapadosite
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 3vw;
 }
