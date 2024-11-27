@@ -6,10 +6,16 @@
     scroll-behavior: smooth;
 
 }
+
+:target
+{
+    scroll-margin-top: 130px;
+}
 /* ----------------------- CSS direto ---------------------------------------- */
 body 
 {
     font-family: Arial, sans-serif; 
+    
 }
 
 header 
@@ -562,7 +568,7 @@ textarea
     border-radius: 3vw;
     height: 35vw;
     width: 20vw;
-    background-image: url(../imagens/Hospital.jpg);
+    background-image: url(../imagens/gato_Z.jpg);
     background-size: cover;
     background-position: 100%;
 }
@@ -1040,17 +1046,18 @@ nav a {
 {
     margin-right: -100%;
     display: flex; 
-    width: 200vw; 
+    width: 200vw;
     height: 100%; 
-    border: 2px solid #ddd;
+   
     border-radius: 10px;
     transition: transform 1s ease-in-out; 
 }
 
 .carrossel img 
 {
-    width: 100vw; 
-    flex-shrink: 0; 
+    width: 100vw;
+    flex-shrink: 0;
+
 }
 #textodeapresentacao
 {
