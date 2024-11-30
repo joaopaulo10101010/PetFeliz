@@ -1,11 +1,109 @@
 /*-------------------- RESPONCIVIDADE DO SITE ------------------------*/
 
-@media screen and (max-width: 768px) 
+@media screen and (max-width: 1000px) 
 {
     /* Configuração que vai ser aplicada quando o dispositivo que estiver sendo acessado pelo site for menor que 768px de largura */
+    
+    
+    /*--------------- Footer Bandeiras de pagamento ---------------------*/
+
+    #backfooterbloco{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #footerblocotexto1{
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1%;
+    }
+    #footerblocotexto3
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .regulaimg
+    {
+        max-width: 60%;
+    }
+    footer{
+        height: 120vw;
+        min-height: 95vh;
+        max-height: 96vh;
+    }
+    #footerblocotexto1
+    {
+        text-align: center;
+    }
+    #formasdepagamento{
+       width: auto;
+    }
 
 
 
 
+    /*------------------------- SAC e Contato ---------------------------------*/
+
+
+    #backblocoserviço{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20%;
+    }
+    .formacontatoserviço
+    {
+        width: 90%;
+        margin-top: 2%;
+        height: auto;
+    }
+    .espaçotexto{
+        
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+ 
+        padding: 0;
+        width: auto;
+    }
+    .espaçotexto1
+    {
+        padding-right: 2%;
+        padding-left: 2%;
+        padding-bottom: 2%;
+       
+    }
+    .espasamentocentro
+    {
+        margin-bottom: -0.2%;
+        margin-top: 2%;
+    }
+    #backtitlefooter
+    {
+        width: auto;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+    #titlefooter{
+        padding-right: 2%;
+        padding-left: 2%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+
+    }
+    #titlefooter h1{
+        font-size: 150%;
+    }
 
 }
