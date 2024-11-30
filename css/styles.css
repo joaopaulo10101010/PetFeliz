@@ -269,7 +269,7 @@ textarea
 #section1
 {
     overflow: hidden;
-    width: auto;
+    width: 100%;
     height: 100vh;
     text-align: center;
     display: flex;
@@ -1066,20 +1066,24 @@ nav a {
 
 .carrossel 
 {
-    margin-right: -100%;
+    
     display: flex; 
-    width: 200vw;
+    width: 100%;
     height: 100%; 
-   
+    
     border-radius: 10px;
     transition: transform 1s ease-in-out; 
 }
 
-.carrossel img 
-{
-    width: 100vw;
-    flex-shrink: 0;
 
+.carrossel div
+{
+    background-position: center;
+    padding-right: 50vw;
+    padding-left: 50vw;
+    padding-bottom: 4vw;
+    padding-top: 4vw;
+    width: 100%;
 }
 #textodeapresentacao
 {
@@ -1126,4 +1130,33 @@ nav a {
     width: 100%;
     height: 100%;
     border-radius: 3vw;
+}
+.carrossel div{
+    width: 100%;
+    height: 100%;
+}
+#contador
+{
+    background-image: url(../imagens/imagemcachorro1.jpg);
+    background-size: cover;
+}
+#carrocel1{
+    background-image: url(../imagens/carocel1.jpg);
+    background-size: cover;
+}
+#carrocel2{
+    background-image: url(../imagens/carocel2.jpg);
+    background-size: cover;
+}
+#carrocel3{
+    background-image: url(../imagens/carocel3.jpg);
+    background-size: cover;
+}
+#carrocel4{
+    background-image: url(../imagens/carocel4.jpg);
+    background-size: cover;
+}
+#carrocel5{
+    background-image: url(../imagens/carocel5.jpg);
+    background-size: cover;
 }
