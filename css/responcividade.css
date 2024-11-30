@@ -250,5 +250,40 @@
         align-items: center;
     }
 
+    /*---------------------- Section 5 -----------------------------*/
+    
+    #section5
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 8%;
+    }
 
+    #section5item1{
+        
+        width: 80%;
+        max-width: none;
+        margin-top: 6%;
+    }
+    #mapadosite{
+        width: 100%;
+    }
+
+    #section5item2{
+        max-width: none;
+        width: 80%;
+
+    }
+    #section5item3
+    {
+        max-width: none;
+        min-width: none;
+        width: 80%;
+        height: 100%;
+        min-height: none;
+        max-height: none;
+    }
+    
 }
