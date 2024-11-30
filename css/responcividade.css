@@ -106,4 +106,24 @@
         font-size: 150%;
     }
 
+/* ------------------------- Section do formulario ---------------------------- */
+
+    #contato{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #imagemform{
+        width: 60vw;
+        height: 60vw;
+        margin-bottom: 5%;
+        margin-top: 3%;
+    }
+    #backformulario{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+
 }
