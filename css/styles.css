@@ -217,8 +217,8 @@ textarea
 /*--------------------------- Sections ----------------------------------------*/
 #sobre
 {
-    width: 70vh;
-    height: 13vh;
+    width: 45%;
+    height: auto;
     border: 1px solid rgb(191,255,169);
     border-radius: 3vw;
     justify-content: center;
@@ -226,14 +226,19 @@ textarea
     display: flex;
     margin-bottom: 2vw;
     margin-top: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
 
 
 }
 
 #sobre p
 {
-    width: 85%;
-    height: 70%;
+    text-align: justify;
+    width: 100%;
+    height: auto;
     font-size: 1.8vh;
 }
 
@@ -248,7 +253,7 @@ textarea
 #sobreimg2
 {
     background-image: url("../imagens/Gemini_Generated_Image_c31w4qc31w4qc31w.jfif");
-    margin-top: 10%;
+    margin-top: 6%;
     margin-bottom: 2%;
     background-size: cover;
     background-position: 40%;
@@ -276,8 +281,8 @@ textarea
 
 #section2
 {
-    width: 99.9%;
-    height: 100vh;
+    width: 100%;
+    height: 80vh;
     border: 1px solid rgb(255, 178, 107);
 }
 #section2div
