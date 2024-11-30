@@ -219,4 +219,36 @@
     }
 
 
+    /*------------------------- Section 3 -----------------------------------*/
+
+    #section3{
+        background-position-x: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    #divsec3
+    {
+        margin: 0;
+        margin-top: 30%;
+        width: 60%;
+    }
+
+    /*----------------------- Section4 ---------------------------*/
+
+   
+    #divsec4{
+        margin: 0;
+        margin-top: 50%;
+        width: 65%;
+    }
+    
+    #section4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
 }
