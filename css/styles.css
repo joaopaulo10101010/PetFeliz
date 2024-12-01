@@ -1160,3 +1160,51 @@ nav a {
     background-image: url(../imagens/carocel5.jpg);
     background-size: cover;
 }
+#titulo{
+    text-align: center;
+    font-size: 1.2vw;
+}
+.backcomentario{
+    padding-bottom: 3%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 96%;
+    height: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.nomedocomentario
+{
+    margin-right: 40%;
+    font-size: 1vw;
+    border: 0.15vw solid rgb(125, 224, 145);
+    border-radius: 3vw;
+    width: auto;
+    padding: 1%;
+}
+.textocomentario{
+    
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 3vw;
+    border: 0.15vw solid rgb(255, 193, 77);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    width: 70%;
+    height: auto;
+    font-size: 1vw;
+}
+.nomedocomentario1
+{
+    margin-left: 40%;
+    font-size: 1vw;
+    border: 0.15vw solid rgb(125, 224, 145);
+    border-radius: 3vw;
+    width: auto;
+    padding: 1%;
+}
