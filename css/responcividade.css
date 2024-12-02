@@ -442,8 +442,55 @@
 
     }
 
-    #backlogoresponcividade{
 
+
+    #backlogoresponcividade:hover{
+        transform: scale(110%);
+        transition: transform 0.3s ease-in-out; 
+
+    }
+
+    #backlogoresponcividade:not(:hover){
+        transform: scale(100%);
+        transition: transform 0.3s ease-in-out; 
+    }
+
+    #backlogoresponcividade:active {
+        transform: scale(95%);
+        transition: transform 0.3s ease-in-out; 
+        
+    }
+
+
+
+
+
+
+
+    #menuresponcividade a:hover{
+        transform: scale(110%);
+        transition: transform 0.3s ease-in-out; 
+        background-color: rgb(255, 216, 145);
+
+    }
+
+    #menuresponcividade a:not(:hover){
+        transform: scale(100%);
+        transition: transform 0.3s ease-in-out; 
+    
+    }
+
+    #menuresponcividade a:active {
+        transform: scale(95%);
+        transition: transform 0.3s ease-in-out; 
+        background-color: rgb(255, 216, 145);
+        
+    }
+    
+
+    #backlogoresponcividade{
+        margin-top: 3%;
+        margin-left: 3%;
         position: fixed;
         width: 15vh;
         height: 15vh;
@@ -473,7 +520,15 @@
 
     }
 
+    #menuresponcividade a{
+        text-decoration: none;
+        padding: 3%;
+        border-radius: 3vw;
+       
+    }
+
     #menuresponcividade{
+
         margin-left: -70%;
         transition: transform 1s ease-in-out; 
         border: 0.3vh solid rgb(76, 235, 62);
@@ -482,7 +537,7 @@
         position: fixed;
         width: 65vw;
         height: auto;
-        margin-top: 16vh;
+        margin-top: 20vh;
         border-radius: 0 3vh 3vh 0;
         display: flex;
         justify-content: center;
