@@ -54,3 +54,24 @@ function mudarmapa()
    mapadogoogle.src = mapa2; 
 }
 
+const menuresponcivo = document.getElementById("menuresponcividade");
+
+let contador1 = 1;
+
+
+function mostramenu()
+{
+  
+
+  if(contador1 == 1){
+    menuresponcivo.classList.remove("displaynoneres");
+    menuresponcivo.style.transform = `translateX(${contador1 * menuresponcivo.offsetWidth}px)`; 
+    contador1 = 0;
+  }
+  else
+  {
+    menuresponcivo.style.transform = `translateX(${contador1 * menuresponcivo.offsetWidth}px)`; 
+    menuresponcivo.classList.add("displaynoneres");
+    contador1 = 1;
+  }
+}
